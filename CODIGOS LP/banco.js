@@ -22,10 +22,10 @@ class Banco{
 
 //Cadastro da conta no banco. Poderia ter sido feito diretamento no objeto/classe mas preferi aqui.
 
-var contaBanc = new Banco("Marvyson Cardoso ", '00014736', 200.00,'Conta corrente', '0047 - Cais do Apolo');
+var contaBanc = new Banco("Marvyson Cardoso ", '00014736', 200.00,'Conta corrente', '0051 - Cais do Apolo');
 
 console.log(`A conta: ${contaBanc.tipoconta} do cliente:  ${contaBanc.nome} na agência:
-            ${contaBanc.agencia} foi aberta com sucesso, com saldo inicial de ${contaBanc.saldo}`);
+            ${contaBanc.agencia} foi aberta com sucesso, seu saldo inicial é ${contaBanc.saldo}`);
 
 
 //Consultar/buscar de Saldo do cliente
